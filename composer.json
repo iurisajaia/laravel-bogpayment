@@ -1,6 +1,7 @@
 {
     "name": "sajaiaiuri/laravel-bogpayment",
     "description": "Bank of Georgia payment integration for Laravel",
+    "version": "1.0.0",
     "type": "project",
     "license": "MIT",
     "authors": [
