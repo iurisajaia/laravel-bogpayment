@@ -1,46 +1,46 @@
 {
-    "name": "sajaiaiuri/laravel-bogpayment",
-    "description": "Bank of Georgia payment integration for Laravel",
-    "version": "1.0.1",
-    "type": "project",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Zura Gabievi",
-            "email": "zura.gabievi@gmail.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Zorb\\BOGPayment\\": "src/"
-        }
-    },
-    "require": {
-        "php": "^7.2|^7.3|^7.4|^8.1",
-        "illuminate/config": "^6.0|^7.0|^8.0",
-        "illuminate/database": "^6.0|^7.0|^8.0",
-        "illuminate/support": "^6.0|^7.0|^8.0",
-        "bensampo/laravel-enum": "^1.38|^2.2|^3.3"
-    },
-    "require-dev": {
-        "ext-simplexml": "*",
-        "ext-openssl": "*",
-        "ext-libxml": "*",
-        "ext-curl": "*"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Zorb\\BOGPayment\\BOGPaymentServiceProvider"
-            ],
-            "aliases": {
-                "BOGPayment": "Zorb\\BOGPayment\\Facades\\BOGPayment"
-            }
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "sajaiaiuri/laravel-bogpayment",
+  "description": "Bank of Georgia payment integration for Laravel",
+  "version": "1.0.0",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zura Gabievi",
+      "email": "zura.gabievi@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Zorb\\BOGPayment\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.2|^7.3|^7.4|^8.1",
+    "illuminate/config": "^6.0|^7.0|^8.0",
+    "illuminate/database": "^6.0|^7.0|^8.0",
+    "illuminate/support": "^6.0|^7.0|^8.0",
+    "bensampo/laravel-enum": "^1.38|^2.2|^3.3"
+  },
+  "require-dev": {
+    "ext-simplexml": "*",
+    "ext-openssl": "*",
+    "ext-libxml": "*",
+    "ext-curl": "*"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Zorb\\BOGPayment\\BOGPaymentServiceProvider"
+      ],
+      "aliases": {
+        "BOGPayment": "Zorb\\BOGPayment\\Facades\\BOGPayment"
+      }
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
