@@ -20,7 +20,7 @@
     "illuminate/config": "^6.0|^7.0|^8.0",
     "illuminate/database": "^6.0|^7.0|^8.0",
     "illuminate/support": "^6.0|^7.0|^8.0",
-    "bensampo/laravel-enum": "^1.38|^2.2|^3.3"
+    "bensampo/laravel-enum": "^1.38|^2.2|^3.3|^6.0"
   },
   "require-dev": {
     "ext-simplexml": "*",
